@@ -1,0 +1,219 @@
+html,
+boDy {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Poppins", Arial, Helvetica, sans-serif;
+}
+
+.container400 {
+  width: 400px;
+}
+
+.container500 {
+  width: 500px;
+}
+
+.headerSectionOne {
+  padding: 0 25px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid lightgray;
+}
+
+nav {
+  width: 600px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav a {
+  text-decoration: none;
+  color: black;
+}
+
+.blackHeart {
+  width: 20px;
+  margin-right: 1rem;
+}
+
+
+h1 {
+  visibility: hidden;
+  font-size: 0;
+}
+
+.headerSectionTwo {
+  padding: 0 25px;
+  margin: 10px 0;
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  align-items: center;
+
+  box-shadow: 0px 0px 0px 0px lightgray;
+}
+
+.headerSectionTwo img {
+  width: 70px;
+  margin-right: 1rem;
+}
+
+.searchBar {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  margin: 0;
+}
+
+.searchBar input {
+  flex: 1;
+  padding: 15px;
+  border: 0;
+  background: url(https://raw.githubusercontent.com/jaeg90/lab-html-exercise/master/images/magnifying-glass.png)
+    left no-repeat;
+  background-size: 20px;
+  padding: 15px 30px;
+  background-color: rgba(0, 0, 0, 0.05);
+}
+
+.searchBar input:focus {
+  outline: none !important;
+  border: 1px solid black;
+}
+
+.searchBar button {
+  padding: 15px 30px;
+  border: 0;
+  background-color: #fb3e44;
+  color: white;
+  font-weight: bold;
+}
+
+.buttonHeader1 {
+  text-decoration: none;
+  color: black;
+  border: thin solid;
+  padding: 7px 20px;
+  margin-left: 20px;
+}
+
+.buttonHeader2 {
+  text-decoration: none;
+  color: black;
+  padding: 7px 20px;
+}
+
+
+.introduction {
+  height: 600px;
+  background-color: rgba(232, 217, 217, 0.3);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.introduction h2 {
+  font-size: 5rem;
+  margin: 0;
+}
+
+.introduction p {
+  text-align: center;
+}
+
+.introduction div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px 0;
+}
+
+.buttonPlans {
+  text-decoration: none;
+  padding: 15px 50px;
+  background-color: #fb3e44;
+  color: white;
+  font-weight: bold;
+  box-shadow: 8px 8px 0 rgba(251, 59, 73, 0.2);
+}
+
+.buttonJoin {
+  text-decoration: none;
+  padding: 15px 50px;
+  font-weight: bold;
+  color: black;
+}
+
+
+
+.description {
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.description img {
+  width: 200px;
+}
+
+.description h2 {
+  font-style: italic;
+  background-color: rgba(255, 204, 53, 0.4);
+  transform: skew(9deg, 0deg);
+  padding: 0 30px;
+}
+
+.description p {
+  text-align: center;
+}
+
+
+
+.features {
+  padding: 0 25px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.features div {
+  display: flex;
+  flex-direction: column;
+  justify-content: first baseline;
+  margin: 15px;
+}
+
+.features div img {
+  width: 30px;
+}
+.features div h3 {
+  color: #ed1c24;
+}
+
+
+.create-org {
+  text-align: center;
+  margin: 50px 50px 150px 50px;
+}
+
+.create-org a {
+  text-decoration: none;
+
+  padding: 15px 175px;
+
+  color: white;
+  background-color: black;
+  box-shadow: 8px 8px 0 rgba(128, 83, 35, 0.2);
+}
